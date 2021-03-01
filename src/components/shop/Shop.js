@@ -23,12 +23,14 @@ const Shop = () => {
     return (
         <div className ="player-shop">
             <div className="player-container">
+                <div className="row">
                 {
                     players.map(player =>
                     <Players player={player}
                     addPlayers= {addPlayers}>
                     </Players>)
                 }
+                </div>
             </div>
             <div className="player-added">
             <AddedPlayers playerAdded= {playerAdded}></AddedPlayers>
