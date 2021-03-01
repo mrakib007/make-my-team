@@ -12,7 +12,7 @@ const AddedPlayers = (props) => {
         const player = players[i];
         const totalPlayer = players[i].name;
         const specificSalary = players[i].salary;
-        addedPlayers = addedPlayers.concat(",",totalPlayer,"(",specificSalary,")");
+        addedPlayers = addedPlayers.concat(",",totalPlayer,"(",specificSalary,")","\n");
         totalSalary = totalSalary + salary.salary;
     }
 
