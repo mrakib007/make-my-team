@@ -1,0 +1,17 @@
+.header img {
+    height : 100px;
+}
+.header{
+    text-align: center;
+}
+.header nav{
+    background-color: black;
+    list-style: 50px;
+    font-size:30px;
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+}

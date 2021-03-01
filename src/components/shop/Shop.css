@@ -1,0 +1,15 @@
+.player-shop{
+    display:flex;
+}
+.player-container{
+    width: 70%;
+    margin-left: 25px;
+    margin-right:10px;
+    border-right: 1px solid lightgrey;
+}
+.player-added{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gold;
+    height:400px;
+}
